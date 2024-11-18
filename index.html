@@ -5,17 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Tutorial</title>
+    <style>
+        #first {
+            text-align: center;
+            background-color: blue;
+        }
+
+
+        h2 {
+            background-color: green;
+            text-align: center;
+            color: white;
+        }
+
+        h3 {
+            background-color: rgb(173, 202, 173);
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
 </head>
 
 <body>
     <div>
-        <h1>New Beginning</h1>
-        <h2>Frontend devlopment</h2>
+        <h1 id="first">New Beginning</h1>
+        <a href="#chap1">
+            <h2>Frontend devlopment chapter -1</h2>
+        </a>
+        <a href="#chap2">
+            <h2>Frontend devlopment chapter -2</h2>
+        </a>
+        <a href="#chap3">
+            <h2>Frontend devlopment chapter -3</h2>
+        </a>
+        <a href="#chap4">
+            <h2>Frontend devlopment chapter -4</h2>
+        </a>
+
         <h3>let's do it</h3>
         <h4>Success needs hardwork</h4>
         <h5>Try to learn quickly</h5>
-        <h6>Be Confident</h6>
-        <p>Iam very <em>luckiest</em> girl</p>
+        <h6 class="first">Be Confident</h6>
+        <br>
+        <br>
+        <br>
+        <h3 id="chap1">Frontend devlopment chapter -1</h3>
+        <p class="first">Iam very <em>luckiest</em> girl Understanding main and origin is Iam very luckiest girl
+            Understanding main and origin is crucial for effectively using Git, especially when collaborating on
+            projects. They help you manage your workflow and keep track of changes in both your local and remote
+            repositories. If you have any more questions or need further clarification, feel free to ask! crucial for
+            effectively using Git, especially when collaborating on projects. They help you manage your workflow and
+            keep track of changes in both your local and remote repositories. If you have any more questions or need
+            further clarification, feel free to ask!</p>
+        <h3 id="chap2">Frontend devlopment chapter -2</h3>
+        <p class="first">Iam very <em>luckiest</em> girl Understanding main and origin is crucial for effectively using
+            Git, especially when collaborating on projects. They help you manage your workflow and keep track of changes
+            in both your local and remote repositories. If you have any more questions or need further clarification,
+            Iam very luckiest girl Understanding main and origin is crucial for effectively using Git, especially when
+            collaborating on projects. They help you manage your workflow and keep track of changes in both your local
+            and remote repositories. If you have any more questions or need further clarification, feel free to ask!feel
+            free to ask!</p>
+
+        <h3 id="chap3">Frontend devlopment chapter -3</h3>
+        <p class="first">Iam very <em>luckiest</em> girl Iam very luckiest girl Understanding main and origin is crucial
+            for effectively using Git, especially when collaborating on projects. They help you manage your workflow and
+            keep track of changes in both your local and remote repositories. If you have any more questions or need
+            further clarification, feel free to ask!Understanding main and origin is crucial for effectively using Git,
+            especially when collaborating on projects. They help you manage your workflow and keep track of changes in
+            both your local and remote repositories. If you have any more questions or need further clarification, feel
+            free to ask!</p>
+
+        <h3 id="chap4">Frontend devlopment chapter -4</h3>
+        <p class="first">Iam very <em>luckiest</em> girl UnderstandingIam very luckiest girl Understanding main and
+            origin is crucial for effectively using Git, especially when collaborating on projects. They help you manage
+            your workflow and keep track of changes in both your local and remote repositories. If you have any more
+            questions or need further clarification, feel free to ask! main and origin is crucial for effectively using
+            Git, especially when collaborating on projects. They help you manage your workflow and keep track of changes
+            in both your local and remote repositories. If you have any more questions or need further clarification,
+            feel free to ask!</p>
+
         <p>I <b>have</b> a <strong>capability</strong> to <i>achive</i> <u>anything</u></p>
     </div>
     <div>
@@ -49,9 +121,16 @@
             <source media="(min-width:1000px)" srcset="images/chinnu.jpg">
             <source media="(min-width:800px)" srcset="images/sangeetha.jpg">
             <source media="(min-width:450px)" srcset="images/chinnu.jpg">
-
             <img src="images/chinnu.jpg" width="200px">
         </picture>
+        <audio controls>
+            <source src="audiosong.mp3">
+        </audio>
+    </div>
+    <div>
+        <iframe name="myframe" height="500px" width="500px"></iframe>
+        <a href="images/chinnu.mp4" target="myframe"> video</a>
+        <a href="images/chinnu.jpg" target="myframe"> image</a>
     </div>
     <div>
         <dl>
@@ -184,6 +263,42 @@
             <a href="viper.mp3">link to the audio</a> instead.
         </p>
     </audio>
+    <div>
+        <h2>Tables</h2>
+        <table border="n" style="width: 100%; text-align: center; border-collapse: collapse;">
+            <tr style="background-color: aqua; border-collapse: collapse;">
+                <th>fName</th>
+                <th>lName</th>
+                <th>Role</th>
+                <th colspan="2">Phone number</th>
+            </tr>
+            <tr>
+                <td>Sangeetha</td>
+                <td>Chunchu</td>
+                <td>FrontEnd developer</td>
+                <td>1234567890</td>
+                <td>0987655432</td>
+            </tr>
+            <tr>
+                <td>Sangeetha</td>
+                <td>Chunchu</td>
+                <td>FrontEnd developer</td>
+                <td>0987655432</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sangeetha</td>
+                <td>Chunchu</td>
+                <td>FrontEnd developer</td>
+                <td>0987655432</td>
+            </tr>
+            <tr>
+
+                <td>Chunchu</td>
+                <td>FrontEnd developer</td>
+                <td>0987655432</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
