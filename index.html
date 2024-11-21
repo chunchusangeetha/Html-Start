@@ -54,44 +54,65 @@
         <br>
         <br>
         <h3 id="chap1">Frontend devlopment chapter -1</h3>
-        <p class="first">Iam very <em>luckiest</em> girl Understanding main and origin is Iam very luckiest girl
-            Understanding main and origin is crucial for effectively using Git, especially when collaborating on
-            projects. They help you manage your workflow and keep track of changes in both your local and remote
-            repositories. If you have any more questions or need further clarification, feel free to ask! crucial for
-            effectively using Git, especially when collaborating on projects. They help you manage your workflow and
-            keep track of changes in both your local and remote repositories. If you have any more questions or need
-            further clarification, feel free to ask!</p>
+        <p>The HTML <kbd> element is used to define keyboard input. The content inside is displayed in the browser's
+                default monospace font. <kbd>Ctrl + S</kbd></p>
+        <p>Message from my computer:</p>
+        <p><samp>File not found.<br>Press F1 to continue</samp></p>
+        <p> &#8704;</p>
+        <p>&#128508;</p>
+        <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+            </code>
+        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and
+            <var>h</var> is the vertical height.
+        </p>
+        <p class="first">Iam very <em>luckiest</em> girl
+        <pre>Understanding main and origin is Iam very luckiest girl</pre>
+        <bdo>Understanding main and origin is crucial for effectively using Git</bdo> especially when collaborating on
+        projects. They help you manage your workflow and keep track of changes in both your local and remote
+        repositories. If you have any more questions or need further clarification, feel free to ask! crucial for
+        effectively using Git, especially when collaborating on projects. They help you manage your workflow and
+        keep track of changes in both your local and remote repositories. If you have any more questions or need
+        further clarification, feel free to ask!</p>
         <h3 id="chap2">Form</h3>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+          </svg>
         <div class="first">
             <form>
-            <fieldset>
-                <legend>Personal info</legend>
-             name:<input type="text" placeholder="enter you name" name="name" /><br><br>
-             Gender:<input type="radio" name="gender"/> male
-            <input type="radio" name="gender"/> female<br><br>
-            email:<input type="email" name="email"\><br><br>
-            password:<input type="password" placeholder="create password" name="password" size="8" maxlength="8" required/><br><br>
+                <fieldset>
+                    <legend>Personal info</legend>
+                    name:<input type="text" id="fname" name="fname" autofocus autocomplete="on"><br><br><br>
+                    Gender:<input type="radio" name="gender" /> male
+                    <input type="radio" name="gender" /> female<br><br>
+                    email:<input type="email" name="email" \><br><br>
+                    phone:<input type="number" id="phone" name="phone" placeholder="123-45-678"
+                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+                    password:<input type="password" placeholder="create password" name="password" size="8" maxlength="8"
+                        required /><br><br>
 
-            <select>
-                <option>rank</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>none</option>
-            </select><br><br>
-            <select>
-                <option>course</option>
-                <optgroup label="1 month"\>
-                <option>ab</option>
-                <option>bc</option>
-                <optgroup label="2 month"\>
-                <option>abc</option>
-                <option>bcd</option>
-            </select><br><br>
-            Note:;<input type="text" value="please check your details before submit" readonly\><br><br>
-            <input type="submit" value="sign in"/>
-        </fieldset>
-    </form>
+                    <select>
+                        <option>rank</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>none</option>
+                    </select><br><br>
+                    <select>
+                        <option>course</option>
+                        <optgroup label="1 month" \>
+                            <option>ab</option>
+                            <option>bc</option>
+                        <optgroup label="2 month" \>
+                            <option>abc</option>
+                            <option>bcd</option>
+                    </select><br><br>
+                    Note:;<input type="text" value="please check your details before submit" readonly\><br><br>
+                    <input type="submit" value="sign in" />
+                </fieldset>
+            </form>
         </div>
 
 
@@ -102,7 +123,30 @@
             further clarification, feel free to ask!Understanding main and origin is crucial for effectively using Git,
             especially when collaborating on projects. They help you manage your workflow and keep track of changes in
             both your local and remote repositories. If you have any more questions or need further clarification, feel
-            free to ask!</p>
+            free to ask!
+            <input type="button">
+            <input type="checkbox">
+            <input type="color">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="email">
+            <input type="file">
+            <input type="hidden">
+            <input type="image">
+            <input type="month">
+            <input type="number">
+            <input type="password">
+            <input type="radio">
+            <input type="range">
+            <input type="reset">
+            <input type="search">
+            <input type="submit">
+            <input type="tel">
+            <input type="text">
+            <input type="time">
+            <input type="url">
+            <input type="week">
+        </p>
 
         <h3 id="chap4">Frontend devlopment chapter -4</h3>
         <p class="first">Iam very <em>luckiest</em> girl UnderstandingIam very luckiest girl Understanding main and
@@ -272,7 +316,7 @@
 
     </div>
     <figure>
-        <img src="images/sangeetha.jpg" alt="sangeetha" title="Sangeetha" height="300" />
+        <img src="images/sangeetha.jpg" alt="sangeetha" title="Sangeetha" height="300"  draggable="true" />
         <figcaption>sangeetha</figcaption>
     </figure>
     <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="
